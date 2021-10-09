@@ -1,0 +1,32 @@
+$naranjo: #ffb912;
+$morado: #9915c7;
+$rosa: #d9adb5;
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+.button {
+	background-color: $rosa;
+	border-color: black;
+	border-width: 2px;
+	padding: 20px;
+	color: black;
+	box-shadow: 8px -8px 0 -2px #6f7fb0,8px -8px 0 0 black;
+	transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+	&:hover {
+		border-color: black;
+		box-shadow: 4px -4px 0 -2px #6f7fb0, 4px -4px 0 0 black;
+		color: white;
+		//box-shadow: 3.5px -3.5px 0 -2px #6f7fb0, 3.5px -3.5px 0 0 black;
+	}
+}
+
+.fondo {
+	background-color: $naranjo;
+}
+
+a:hover {
+	cursor: pointer;
+}
