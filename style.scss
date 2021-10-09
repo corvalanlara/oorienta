@@ -1,14 +1,25 @@
 $naranjo: #ffb912;
 $morado: #9915c7;
-$rosa: #d9adb5;
+$salmon: #d9adb5;
+$dust: #d8d8d8;
 
 body {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 }
 
+.logo {
+	color: $dust;
+	letter-spacing: 1px;
+	transition: letter-spacing 0.5s ease, color 0.5s ease;
+	&:hover {
+		letter-spacing: 3px;
+		color: $salmon;
+	}
+}
+
 .button {
-	background-color: $rosa;
+	background-color: $salmon;
 	border-color: black;
 	border-width: 2px;
 	padding: 20px;
@@ -19,7 +30,6 @@ body {
 		border-color: black;
 		box-shadow: 4px -4px 0 -2px #6f7fb0, 4px -4px 0 0 black;
 		color: white;
-		//box-shadow: 3.5px -3.5px 0 -2px #6f7fb0, 3.5px -3.5px 0 0 black;
 	}
 }
 
@@ -29,4 +39,17 @@ body {
 
 a:hover {
 	cursor: pointer;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.texto {
+	text-align: justify;
+}
+
+.grande {
+	font-size: 15em;
+	color: $morado;
 }

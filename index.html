@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<title>Oorienta</title>
+    	<title>OOrienta</title>
     	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,13 +11,45 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<section class="section">
-		<div class="container">
-			<article class="fondo">
-				<p>Hola</p>
-			</article>
-			<a class="button" href="#">¡Lo quiero!</a>
+	<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="/">
+				<p class="logo">oorienta</p>
+		    	</a>
+		    	<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+		      		<span aria-hidden="true"></span>
+		      		<span aria-hidden="true"></span>
+		      		<span aria-hidden="true"></span>
+		    	</a>
+		</div>
+	</nav>
+	<section class="hero is-medium">
+		<div class="hero-body has-text-centered">
+			<p class="title is-1 bold">Te ayudamos a encontrar tu mejor oportunidad</p>
 		</div>
 	</section>
+	<section class="container">
+		<div class="columns is-centered is-vcentered">
+			<div class="column is-one-fifth has-text-centered">
+				<p class="grande">1</p>
+			</div>
+			<div class="column">
+				<p class="title is-2">Llena</p>
+				<p class="subtitle is-4 texto">Dolor molestiae illo quidem dolorum eos deserunt minus? Pariatur id quidem consectetur voluptates culpa sint laborum hic. Laborum dolor omnis ut magni quas quod Perferendis similique doloribus voluptates molestias modi</p>
+				
+			</div>
+			<div class="column">
+				<figure>
+					<img src="foto.png">
+				</figure>
+			</div>
+			<div class="column has-text-centered">
+				<a class="button" href="#">¡Lo quiero!</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Scripts -->
+	<script src="script.js"></script>
 </body>
 </html>
