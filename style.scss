@@ -8,6 +8,10 @@ body {
 	font-weight: 700;
 }
 
+hr {
+	border: 1em dashed grey;
+}
+
 .logo {
 	color: $dust;
 	letter-spacing: 1px;
@@ -52,4 +56,8 @@ a:hover {
 .grande {
 	font-size: 15em;
 	color: $morado;
+}
+
+.trio {
+	height: 200px;
 }
