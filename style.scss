@@ -8,8 +8,25 @@ body {
 	font-weight: 700;
 }
 
+footer {
+	margin-top: 5em;
+}
+
+.paso {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+#portada {
+	background-color: $morado;
+	background-image: url("aliens/investigaciones.png");
+	background-position: center center;
+    	background-repeat: no-repeat;
+    	background-size: 40%;
+}
+
 hr {
-	border: 1em dashed grey;
+	border: 1em dashed black;
 }
 
 .logo {
@@ -60,4 +77,8 @@ a:hover {
 
 .trio {
 	height: 200px;
+}
+
+#titular {
+	background-color: rgba(255, 255, 255, .2);
 }

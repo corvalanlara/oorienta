@@ -1,17 +1,38 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700; }
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+footer {
+  margin-top: 5em;
+}
+
+.paso {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#portada {
+  background-color: #9915c7;
+  background-image: url("aliens/investigaciones.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
 
 hr {
-  border: 1em dashed grey; }
+  border: 1em dashed black;
+}
 
 .logo {
   color: #d8d8d8;
   letter-spacing: 1px;
-  transition: letter-spacing 0.5s ease, color 0.5s ease; }
-  .logo:hover {
-    letter-spacing: 3px;
-    color: #d9adb5; }
+  transition: letter-spacing 0.5s ease, color 0.5s ease;
+}
+.logo:hover {
+  letter-spacing: 3px;
+  color: #d9adb5;
+}
 
 .button {
   background-color: #d9adb5;
@@ -19,30 +40,42 @@ hr {
   border-width: 2px;
   padding: 20px;
   color: black;
-  box-shadow: 8px -8px 0 -2px #6f7fb0,8px -8px 0 0 black;
-  transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out; }
-  .button:hover {
-    border-color: black;
-    box-shadow: 4px -4px 0 -2px #6f7fb0, 4px -4px 0 0 black;
-    color: white; }
+  box-shadow: 8px -8px 0 -2px #6f7fb0, 8px -8px 0 0 black;
+  transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.button:hover {
+  border-color: black;
+  box-shadow: 4px -4px 0 -2px #6f7fb0, 4px -4px 0 0 black;
+  color: white;
+}
 
 .fondo {
-  background-color: #ffb912; }
+  background-color: #ffb912;
+}
 
 a:hover {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .bold {
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 .texto {
-  text-align: justify; }
+  text-align: justify;
+}
 
 .grande {
   font-size: 15em;
-  color: #9915c7; }
+  color: #9915c7;
+}
 
 .trio {
-  height: 200px; }
+  height: 200px;
+}
+
+#titular {
+  background-color: rgba(255, 255, 255, 0.2);
+}
 
 /*# sourceMappingURL=style.css.map */
