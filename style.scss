@@ -2,14 +2,17 @@ $naranjo: #ffb912;
 $morado: #9915c7;
 $salmon: #d9adb5;
 $dust: #d8d8d8;
+$celeste: rgb(102, 184, 201);
+$amarillo: rgb(250, 201, 32);
+
+$mobile: 769px;
+$tablet: 1024px;
+$desktop: 1216px;
+$widescreen: 1408px;
 
 body {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
-}
-
-footer {
-	margin-top: 5em;
 }
 
 .paso {
@@ -21,8 +24,17 @@ footer {
 	background-color: $morado;
 	background-image: url("aliens/investigaciones.png");
 	background-position: center center;
-    	background-repeat: no-repeat;
-    	background-size: 40%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    #imagen_portada {
+        display: none;
+    } 
+    @media(max-width: $mobile) {
+        #imagen_portada {
+            display: block;
+        }
+        background-image: none;
+    }
 }
 
 hr {
@@ -79,6 +91,34 @@ a:hover {
 	height: 200px;
 }
 
-#titular {
-	background-color: rgba(255, 255, 255, .2);
+.fondo_texto > span {
+    padding: 0.1em;
+    color: white;
+	background-color: rgba(153, 21, 199, 0.8);
+    @media(max-width: $mobile) {
+        background-color: transparent;
+    }
 }
+
+.seccion2{
+    background-color: $amarillo;
+}
+
+#seccion3 {
+    background-color: $celeste;
+}
+
+.vertical {
+    display: none;
+    @media(max-width: $mobile) {
+        display: block;
+    }
+}
+.horizontal {
+    display: block;
+    @media(max-width: $mobile) {
+        display: none;
+    }
+}
+
+
