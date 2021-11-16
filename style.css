@@ -37,6 +37,12 @@ body {
   color: #d9adb5;
 }
 
+#header-logo {
+  background: url("logo.png") no-repeat center center;
+  background-size: cover;
+  width: 230px;
+}
+
 .button {
   background-color: #d9adb5;
   border-color: black;
