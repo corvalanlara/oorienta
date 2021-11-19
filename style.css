@@ -10,13 +10,12 @@ body {
 
 #portada {
   background-color: #9915c7;
-  background-image: url("images/aliens/inv.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 40%;
 }
 #portada #imagen_portada {
-  display: none;
+  width: 60%;
 }
 @media (max-width: 769px) {
   #portada {
@@ -24,6 +23,7 @@ body {
   }
   #portada #imagen_portada {
     display: block;
+    width: 100%;
   }
 }
 
